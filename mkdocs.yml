@@ -1,0 +1,42 @@
+site_name: BeyondClass Report
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo 
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Introduction: index.md
+  - Features:
+    - Overview: features.md
+    - Module-Based Learning: features/module-learning.md
+    - AI Assignments: features/ai-assignments.md
+    - Certificates: features/certificates.md
+    - AI Learning Assistant: features/ai-agent.md
+  - How to Use: usage.md
+  - Testing Strategy: testing.md
+  - Conclusion: conclusion.md
