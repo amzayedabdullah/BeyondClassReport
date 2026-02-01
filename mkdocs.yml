@@ -1,4 +1,6 @@
 site_name: BeyondClass Report
+site_url: https://amzayedabdullah.github.io/BeyondClassReport/
+repo_url: https://github.com/amzayedabdullah/BeyondClassReport
 theme:
   name: material
   palette:
